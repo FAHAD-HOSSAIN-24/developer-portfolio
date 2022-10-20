@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+.h2{
+    font-size: 40px;
+}
+.green_color{
+    color: rgb(16, 199, 16);
+}
+.section{
+    display: flex;
+}
+.half_width{
+    width: 50%;
+    padding: 5%;
+}
+
+.half_width img{
+    width: 100%;
+}
+.hire_me_btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(16, 199, 16);
+    color: white;
+    font-weight: 700;
+}
+.exp_card{
+    box-shadow: 10px 10px 40px;
+    width: 40%;
+    margin: 5%;
+    border-radius: 20px;
+}
+.card_1{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(7, 214, 7), rgb(117, 241, 117));
+    border-image-slice: 1;
+}
+.card_2{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(7, 219, 35), rgb(26, 59, 25));
+    border-image-slice: 1;
+}
+.coprightMsg{
+    text-align: center;
+    color: rgb(77, 70, 70);
+}
